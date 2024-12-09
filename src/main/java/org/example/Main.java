@@ -23,8 +23,8 @@ public class Main {
         // Вывод информации
         for (Shape3DInterface shape : shapes) {
             System.out.println(shape);
-            System.out.println("Surface Area: " + shape.surfaceArea());
-            System.out.println("Volume: " + shape.volume());
+            System.out.printf("Surface Area: %.2f%n", shape.surfaceArea());
+            System.out.printf("Volume: %.2f%n", shape.volume());
             System.out.println();
         }
     }
